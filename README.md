@@ -57,8 +57,8 @@ Requires **Python 3.10+** and a terminal with Unicode box drawing (Windows
 Terminal, iTerm2, kitty, Alacritty…).
 
 ```bash
-git clone https://github.com/Belal-ElKhayat/Chess.git
-cd Chess
+git clone https://github.com/Belal-ElKhayat/chess-terminal.git
+cd chess-terminal
 pip install -e .
 ```
 
@@ -369,9 +369,10 @@ Ideas that fit the same window, roughly in order:
 
 ## License
 
-MIT. See [pyproject.toml](pyproject.toml) for metadata.
+MIT. See [LICENSE](LICENSE).
 
 Chess.com and lichess are read through their public endpoints; this project is
 not affiliated with either. Stockfish is optional, separate software — install
 it from [stockfishchess.org](https://stockfishchess.org/) and point the Engine
 Room at the binary.
+
